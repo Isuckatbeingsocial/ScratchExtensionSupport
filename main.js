@@ -3,7 +3,7 @@ let vm = document.getElementById("app")._reactRootContainer._internalRoot.curren
 
 class scratch {
     constructor() {
-        this.vm = 
+        this.vm = vm
         this.extensions = {
             register: function(e) {
                 vm.extensionManager._registerInternalExtension(e);
